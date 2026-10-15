@@ -1,0 +1,16 @@
+{
+  "name": "grove",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "grove": "src/index.ts"
+  },
+  "scripts": {
+    "start": "bun run src/index.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "bun-types": "^1.4.3"
+  }
+}
